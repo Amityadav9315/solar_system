@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.solar_system{
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.neptune{
+    position: relative;
+    height: 900px;
+    width: 900px;
+    border: 5px solid rgb(217, 147, 7) ; 
+    border-radius: 50%;
+    padding: 3rem;
+       animation: rotate 10s linear infinite;
+
+
+}
+.neptune01{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:12% ;
+
+
+}
+.uranus{
+    position: relative;
+    height: 800px;
+    width: 800px;
+    border: 5px solid rgb(217, 147, 7);
+    border-radius: 50%;
+    padding: 3rem;
+ 
+
+}
+.uranus01{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 9%;
+}
+.saturn{
+    position: relative;
+    height: 700px;
+    width: 700px;
+    border: 5px solid rgb(217, 147, 7);
+    border-radius: 50%;
+    padding: 3rem;
+
+}
+.saturn01{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 3%;
+
+}
+.jupiter{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    border: 5px solid rgb(217, 147, 7) ;
+    border-radius: 50%;
+    padding: 3rem;
+
+}
+.jupiter01{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    right: 1%;
+
+}
+.mars{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 5px solid  rgb(217, 147, 7);
+    border-radius: 50%;
+    padding: 3rem;
+    
+
+}
+.mars01{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 1%;
+    right: 3%;
+    left: 9%;
+    bottom: 5%;
+
+
+}
+.earth{
+    position: relative;
+    height: 400px;
+    width: 400px;
+     border: 5px solid  rgb(217, 147, 7);
+    border-radius: 50%;
+    padding: 3rem;
+        animation: rotate 5s linear infinite;
+    
+
+}
+.earth01{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 1%;
+    right: 1%;
+
+
+    
+}
+.venus{
+    position: relative;
+    height: 300px;
+    width: 300px;
+     border: 5px solid  rgb(217, 147, 7);
+    border-radius: 50%;
+    padding: 3rem;
+
+
+}
+.venus01{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: -12%;
+
+}
+.mercury{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 5px solid  rgb(217, 147, 7);
+    border-radius: 50%;
+    padding: 3rem;
+
+
+}
+.mercury01{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: -14%;
+
+}
+.sun{
+    position: relative;
+
+}
+.sun01{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 3%;
+    top:-3%;
+ 
+    
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
